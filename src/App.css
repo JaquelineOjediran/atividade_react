@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+main{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecalho{
+  position: relative;
+  width: 100%;
+  height: 48px;
+  font-weight: bold;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(51, 177, 57);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 600;
+}
+
+.menu img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.menu_esq{
+  display: flex;
+  align-items: center;
+}
+
+.menu_esq img{
+  margin-left: 20px;
+}
+
+.menu_cen{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.menu_dir{
+  display: flex;
+  align-items: center;
+  background-color: green;
+  padding-left: 5px;
+  border-radius: 4px;
+  padding-right: 60px;
+}
+
+.conteudo{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: aliceblue;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.galeria{
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: rgb(0, 52, 119);
+  height: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fotos img{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.rodape{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(118, 139, 0);
+}
+
+.nav_dir{
+  font-weight: normal;
+  color: rgb(156, 156, 156);
+  
+}
+
+.nav_esq a{
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav_dir a{
+  text-decoration: none;
+  border: 0.5px solid rgb(170, 170, 170);
+  border-radius: 5px;
+  margin-left: 15px;
+  color: rgb(121, 121, 121);
+  padding: 2px 5px;
+}
+
+.g1{
+  color: blue;
+}
+
+.g2{
+  color: brown;
+}
+
+.g3{
+  color: green;
+}
+
+.g4{
+  color: orangered;
+}
+
+.g5{
+  color: red;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.navbar img{
+  width: 126px;
+  height: 20px;
+  margin-right: 50px;
+}
+
+.navnav_dir{
+  border: 0.5px solid rgb(182, 182, 182);
+  padding: 12px;
+  border-radius: 2px;
+  color: rgb(0, 184, 0);
+  font-weight: 600;
+}
+
+.bloco{
+  width: 70%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.bloco1, .bloco2{
+  width: 50%;
+  position: relative;
+  height: auto;
+  
+}
+
+.bloco1 img{
+  width: 476px;
+  height: 548px;
+  border-radius: 10px;
+}
+
+.bloco2 img{
+  width: 405px;
+  height: 270px;
+  border-radius: 5px;
+}
