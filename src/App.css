@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+
+*{
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
 main{
   position: relative;
   width: 100%;
@@ -26,7 +35,7 @@ main{
   position: relative;
   width: 100%;
   height: 70px;
-  background-color: rgb(51, 177, 57);
+  background-color: #06AA48;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -57,46 +66,46 @@ main{
 .menu_dir{
   display: flex;
   align-items: center;
-  background-color: green;
+  background-color: #06AA48;
   padding-left: 5px;
   border-radius: 4px;
   padding-right: 60px;
 }
 
+.centralizar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 .conteudo{
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
-  background-color: aliceblue;
   font-size: 20px;
   color: aliceblue;
   font-weight: 500;
   display: flex;
-  justify-content: space-evenly;
-}
-
-.galeria{
-  position: relative;
-  display: flex;
-  width: 100%;
-  background-color: rgb(0, 52, 119);
-  height: 250px;
-  justify-content: space-evenly;
   align-items: center;
+  padding-top: 20px;
 }
 
-.fotos img{
-  width: 200px;
-  height: 200px;
+.conteudo h5, .conteudo h3, .conteudo h4, .conteudo h6{
+  margin-left: 130px;
+  padding-top: 20px;
+}
+
+.tabela{
   position: relative;
   display: flex;
-  flex-direction: row;
-}
-
-.rodape{
-  width: 100%;
-  height: 80px;
-  background-color: rgb(118, 139, 0);
+  width: 40%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  border: 1px solid rgb(208, 208, 208);
+  padding-bottom: 20px;
 }
 
 .nav_dir{
@@ -129,7 +138,7 @@ main{
 }
 
 .g3{
-  color: green;
+  color: #06AA48;
 }
 
 .g4{
@@ -148,47 +157,156 @@ main{
   align-items: center;
   font-size: 18px;
   justify-content: space-evenly;
+  background-color: rgb(240, 255, 241);
 }
 
 .navbar img{
   width: 126px;
   height: 20px;
   margin-right: 50px;
+
 }
 
 .navnav_dir{
   border: 0.5px solid rgb(182, 182, 182);
   padding: 12px;
   border-radius: 2px;
-  color: rgb(0, 184, 0);
+  color: #06AA48;
   font-weight: 600;
 }
 
-.bloco{
-  width: 70%;
-  height: auto;
+.materia_esq{
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 50px 0;
-}
-
-.bloco1, .bloco2{
-  width: 50%;
-  position: relative;
-  height: auto;
+  width: 20%;
+  height: 200px;
   
 }
 
-.bloco1 img{
-  width: 476px;
-  height: 548px;
-  border-radius: 10px;
+.materia_dir{
+  position: relative;
+  float: left;
+  width: 55%;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
-.bloco2 img{
-  width: 405px;
-  height: 270px;
-  border-radius: 5px;
+
+.conteudo img {
+  width: 300px;
+  height: 200px;
+}
+
+.materia_dir .linha1{
+  color: rgb(55, 55, 55);
+  font-size: 12px;
+}
+
+.materia_dir .linha2{
+  color: #06AA48;
+  font-size: 18px;
+}
+
+.materia_dir .linha3{
+  color: rgb(55, 55, 55);
+  font-size: 14px;
+}
+
+.materia_dir .linha4{
+  color: rgb(55, 55, 55);
+  font-size: 10px;
+}
+
+hr{
+  color: black;
+}
+
+.tabela img{
+  width: 50px;
+  height: 50px;
+  padding: 5px 20px;
+}
+
+.tabela .escudo{
+  width: 35px;
+  height: 35px;
+}
+
+.tabela p{
+  width: 100%;
+  height: 60px;
+  background-color: #06AA48;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tabela h5{
+  padding: 8px 0 ;
+  font-size: 18px;
+}
+
+.tabela h6{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+.rodape{
+  background-color: #06AA48;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+.superior{
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding-left: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.superior p{
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  width: 5%;
+}
+
+.superior h4{
+  position: relative;
+  font-size: 18px;
+  font-weight: normal;
+  float: left;
+  width: 40%;
+}
+
+.inferior{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inf_dir{
+  position: relative;
+  color: white;
+  font-size: 14px;
+  width: 40%;
+  float: left;
+}
+
+.inf_esq{
+  position: relative;
+  color: white;
+  font-size: 14px;
+  width: 40%;
+  margin-left: 60px;
 }
